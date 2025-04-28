@@ -1,0 +1,19 @@
+.movie-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .no-results {
+    text-align: center;
+    padding: 40px;
+    color: var(--gray-dark);
+    font-style: italic;
+  }
